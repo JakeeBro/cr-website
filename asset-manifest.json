@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cr-website/static/css/main.a617e044.chunk.css",
+    "main.js": "/cr-website/static/js/main.58dc0493.chunk.js",
+    "main.js.map": "/cr-website/static/js/main.58dc0493.chunk.js.map",
+    "runtime-main.js": "/cr-website/static/js/runtime-main.5ea9d741.js",
+    "runtime-main.js.map": "/cr-website/static/js/runtime-main.5ea9d741.js.map",
+    "static/js/2.6bfc7e17.chunk.js": "/cr-website/static/js/2.6bfc7e17.chunk.js",
+    "static/js/2.6bfc7e17.chunk.js.map": "/cr-website/static/js/2.6bfc7e17.chunk.js.map",
+    "static/js/3.4ac08690.chunk.js": "/cr-website/static/js/3.4ac08690.chunk.js",
+    "static/js/3.4ac08690.chunk.js.map": "/cr-website/static/js/3.4ac08690.chunk.js.map",
+    "index.html": "/cr-website/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/cr-website/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.6bfc7e17.chunk.js.LICENSE.txt": "/cr-website/static/js/2.6bfc7e17.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/cr-website/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ea9d741.js",
+    "static/js/2.6bfc7e17.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.58dc0493.chunk.js"
+  ]
+}
