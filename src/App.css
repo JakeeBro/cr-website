@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.slider {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.right {
+  top: 50%;
+  width: 200px;
+  right: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left {
+  top: 50%;
+  width: 200px;
+  left: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+

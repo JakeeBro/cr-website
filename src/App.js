@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import { React, Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import NavBar from './components/NavBar';
+import ImageSlider3 from './components/ImageSlider/ImageSlider3'
+import SliderData from './components/ImageSlider/SliderData'
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      current: 0
+    }
+  }
+
+  updateCurrent = ({value}) => {
+    this.setState({ current: value})
+  }
+
+  render() {
+    const { current } = this.state;
+    return (
+      <div className="App flex flex-column">
+        <NavBar />
+        {/*<ImageSlider className='' slides={SliderData}/>*/}
+        {/*<ImageSlider2 />*/}
+        <ImageSlider3 slides={SliderData} current={current} update={this.updateCurrent}/>
+      </div>
+    );
+  }
 }
 
 export default App;
