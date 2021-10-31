@@ -1,3 +1,7 @@
+.navdiv {
+	background: linear-gradient(236deg,#10241e,#0e4f3d,#00cc92);
+}
+
 .navbar {
 	display: grid;
 	grid-template-columns: 30% auto 30%;
@@ -30,6 +34,11 @@
 
 .link-item {
 	flex-grow: 1;
+}
+
+.nav-button:hover {
+	color: #00cc92;
+	font-size: 14pt;
 }
 
 .subtitle {

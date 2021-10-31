@@ -4,6 +4,7 @@ import './components/NavBar/NavBar.css';
 
 import NavBar from './components/NavBar/NavBar';
 import NavBar2 from './components/NavBar/NavBar2';
+import LandingPage from './components/LandingPage/LandingPage';
 import ImageSlider3 from './components/ImageSlider/ImageSlider3'
 import SliderData from './components/ImageSlider/SliderData'
 
@@ -24,6 +25,7 @@ class App extends Component {
     return (
       <div className="App flex flex-column">
         <NavBar2 />
+        <LandingPage />
         {/*<NavBar />*/}
         {/*<ImageSlider className='' slides={SliderData}/>*/}
         {/*<ImageSlider2 />*/}

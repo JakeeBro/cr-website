@@ -7,7 +7,7 @@ import './NavBar.css';
 
 const NavBar2 = () => {
 	return (
-		<div className='bg-blue'>
+		<div className='navdiv'>
 			<nav className='navbar'>
 				<div className='title pointer'>CosmoReady</div>
 				<div className='link-list'>

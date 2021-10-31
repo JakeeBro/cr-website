@@ -1,0 +1,44 @@
+.landing {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-items: left;
+	padding: 0 10% 0 10%;
+}
+
+.landing-header {
+	display: flex;
+	padding: 0;
+	margin: 5% 0 0 0;
+	font-weight: bolder;
+	font-size: 30pt;
+	background: linear-gradient(236deg,#010002 9.64%,#032a56 61.09%,#087cfa 106.16%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.landing-subheader {
+	color: black;
+	display: flex;
+	padding: 0;
+	margin: 1% 0 0 0;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+.license {
+	width: 200px;
+	font-weight: bold;
+	font-size: 20pt;
+	box-shadow: 0 8px 8px -4px lightgray;
+	cursor: default;
+	background: linear-gradient(236deg,#010002 9.64%,#032a56 61.09%,#087cfa 106.16%);
+}
+
+.license-list {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 40px 0 40px 0;
+}
