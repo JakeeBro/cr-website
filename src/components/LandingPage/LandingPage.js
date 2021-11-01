@@ -1,6 +1,7 @@
 import React from 'react';
 import './LandingPage.css';
 import LicenseCard from './LicenseCard';
+import SectionCard from './SectionCard';
 
 const LandingPage = () => {
 	return (
@@ -14,6 +15,11 @@ const LandingPage = () => {
 				<LicenseCard title={'Nail Tech'}/>
 				<LicenseCard title={'Instructing'}/>
 			</div>
+			<div className=''>
+          		<SectionCard />
+          		<SectionCard />
+          		<SectionCard />
+        	</div>
 		</div>
 	)
 }
