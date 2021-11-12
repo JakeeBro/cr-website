@@ -1,8 +1,6 @@
 import { React } from 'react';
 
 const ImageSlider2 = ({ slides, current, update }) => {
-	const length = slides.length
-
 	console.log(current);
 
 	if (!Array.isArray(slides) || slides.length <= 0) {
