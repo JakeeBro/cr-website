@@ -4,7 +4,7 @@ const NavBarButton = ({ title, href }) => {
 	return (
 		<div className='flex items-center justify-center ma2'>
 			<a href={href}>
-				<button className=''>{title}</button>
+				<button className='navbutton-v2'>{title}</button>
 			</a>
 		</div>
 	)
