@@ -49,7 +49,7 @@ class App extends Component {
     return (
       <div className="App flex flex-column">
         <NavBar largeView={largeView}/>
-        {/*<LandingPage />*/}
+        <LandingPage />
         {/*<ImageSlider className='' slides={SliderData}/>*/}
         {/*<ImageSlider2 />*/}
         {/*<ImageSlider3 slides={SliderData} current={current} update={this.updateCurrent}/>*/}

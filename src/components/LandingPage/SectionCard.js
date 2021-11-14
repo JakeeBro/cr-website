@@ -5,7 +5,12 @@ const SectionCard = ({ sectionTitle }) => {
 	return (
 		<div className='section-card'>
 			<div className='section-title'>
-				<p>{sectionTitle}</p>
+				<p className=''>{sectionTitle}</p>
+				<div className='section-content-holder'>
+					<div className='blue'>
+						Test
+					</div>
+				</div>
 			</div>
 		</div>
 	)

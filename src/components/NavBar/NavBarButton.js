@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const NavBarButton = ({ title, href }) => {
 	return (
 		<div className='flex items-center justify-center ma2'>
